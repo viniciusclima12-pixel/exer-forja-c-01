@@ -9,23 +9,23 @@ int main()
     char sexo;
     int idade;
 
-    printf("Qual a idade? ");
-    fflush(stdin);
+    printf("QUAL A IDADE: \n");
     scanf("%d", &idade);
-    printf("DIGITE (M) PARA MASCULINO E (F) PARA FEMININO: ");
-    scanf("%c", &sexo);
+    printf("DIGITE (M) PARA MASCULINO E (F) PARA FEMININO: \n");
+    scanf(" %c", &sexo);
 
     if (sexo == 'M'){
-
-     if (idade >= 16){
+        if (idade >= 16){
             printf("PODE COMPRAR INGRESSOS. \n");
-    }else{
+        }
+        else{
             printf("NÃO PODE COMPRAR INGRESSOS. \n");
         }
     }else{
-    if (idade >= 18){
+        if (idade >= 18){
             printf("PODE COMPRAR INGRESSOS. \n");
-    }else{
+        }
+        else{
             printf("NÃO PODE COMPRAR INGRESSOS. \n");
         }
     }
